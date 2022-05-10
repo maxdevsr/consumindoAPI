@@ -1,0 +1,75 @@
+#star {
+    color: gold;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.vitrineProdutos {
+    display: flex;
+}
+
+.vitrineProdutos ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+
+.vitrineProdutos li img {
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.vitrineProdutos li {
+    display: flex;
+    border: 2px black solid;
+    flex-direction: column;
+    width: 350px;
+    align-items: center;
+    margin: 10px;
+    border-radius: 16px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.vitrineProdutos li img {
+    margin-bottom: 10px;
+}
+
+.vitrineProdutos li span {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.vitrineProdutos li p {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.vitrineProdutos li button {
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: cornsilk;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.vitrineProdutos li button:hover {
+    background-color: aqua;
+}
+
+
+/* span p span button  */
