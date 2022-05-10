@@ -34,6 +34,8 @@ div {
 .vitrineProdutos li {
     display: flex;
     border: 2px black solid;
+    border-left: none;
+    border-top: none;
     flex-direction: column;
     width: 350px;
     align-items: center;

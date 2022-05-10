@@ -21,9 +21,12 @@ class app {
                     const button = document.createElement('button')
                     button.innerText = 'COMPRAR'
                     const urlimg = `https://kenzie-academy-brasil.gitlab.io/fullstack/frontend/modulo2/sprint3/img/consumindo-api-produtos/${produtoAtual.id}/Image.png`
+                    const contStars = produtoAtual.reviews
+                    const elementStar = `<h1>&#9733</h1>`
+
 
                     img.src = urlimg
-                    stars.innerHTML = produtoAtual.reviews
+                    stars.innerHTML = contStars
                     descricao.innerText = produtoAtual.productName
                     if (produtoAtual.promotionStatus == true) {
                         valor.innerHTML = `de R$<s> ${produtoAtual.price.productPrice},00</s> 
